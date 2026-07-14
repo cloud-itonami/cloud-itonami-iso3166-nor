@@ -1,0 +1,33 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "nor.aksjeloven-1997"
+           :title "Lov om aksjeselskaper (aksjeloven) (Norwegian Companies Act)"
+           :jurisdiction "NOR"
+           :kind :law
+           :law-number "LOV-1997-06-13-44"
+           :url "https://lovdata.no/lov/1997-06-13-44"
+           :url-provenance :official-lovdata
+           :enacted-date "1999-01-01"
+           :retrieved-at "2026-07-15"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "nor.personopplysningsloven-2018"
+           :title "Act relating to the processing of personal data (The Personal Data Act)"
+           :jurisdiction "NOR"
+           :kind :law
+           :law-number "LOV-2018-06-15-38"
+           :url "https://lovdata.no/dokument/NLE/lov/2018-06-15-38"
+           :url-provenance :official-lovdata
+           :enacted-date "2018-07-20"
+           :retrieved-at "2026-07-15"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "nor.arbeidsmiljoloven-2005"
+           :title "Act relating to the working environment, working hours and employment protection, etc. (Working Environment Act)"
+           :jurisdiction "NOR"
+           :kind :law
+           :law-number "LOV-2005-06-17-62"
+           :url "https://lovdata.no/dokument/NLE/lov/2005-06-17-62"
+           :url-provenance :official-lovdata
+           :enacted-date "2006-01-01"
+           :retrieved-at "2026-07-15"
+           :topic [:labor :employment]}]
